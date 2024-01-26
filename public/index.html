@@ -1,43 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>React App</title>
+  <!-- style section here -->
+</head>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<body>
+<div class="card">
+  <img src="thumbnail_mizei.png" class="logo-external" alt="Logo">
+  <div class="card-header" style="text-align: center;">
+    <h1 style="color: #2699b5; font-size: 50px;">DEINE ZEIT.</h1>
+    <h1 style="color: #2699b5; font-size: 50px;text-indent: -10px;">DEINE APP.</h1>
+    <h2 style="color: #2699b5; font-size: 21px;">Mitarbeiterzeiterfassung für </h2>
+    <h2 style="color: #2699b5; font-size: 21px;">dich und dein Unternehmen.</h2>
+  </div>
+  <div class="card-content">
+    <h4 style="font-size: 20px; text-indent: 20px; "><b > Willkommen bei MiZei</b></h4>
+    <div class="welcome-box">
+      <h3>Hallo (Name),</h3>
+      <p>Deine Registrierung war erfolgreich. Du kannst sofort loslegen.</p>
+      <span>Greif bequem über die App oder user Webportal auf deine Daten zu-jederzeit und von überall. </span>
+      <span>Im Home-Office oder im Büro. Ganz ohne Stempelkarte.  </span>
+    </div>
+    <div class="steps-box">
+      <h3>Deine ersten Schritte:</h3>
+      <ul class="steps-list">
+        <li><img src="thumbnail_mizei_timer.png" class="icon"> Lege deine wöchentliche Soll-Arbeitszeit in den Einstellungen fest. Ganz individuell für jeden Wochentag.</li>
+        <li><img src="thumbnail_mizei_publicholidays.png" class="icon">Die Feiertage, an denen du nicht arbeitest, kannst du ebenfalls unter den Einstellungen auswählen.</li>
+        <li><img src="thumbnail_mizei_holiday.png" class="icon">Die Anzahl deiner jährlichen Urlaubstage musst du nicht jetzt eintragen. Falls du das auswendig weißt, kannst du das sofort ausfüllen!</li>
+        <li><img src="thumbnail_mizei_team.png" class="icon">Lade Kollegen oder Mitarbeiter in dein MiZei-Team ein, um als Arbeitgeber oder Abteilungsleiter den Überblick zu behalten.</li>
+      </ul>
+    </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <div class="support-box">
+      <p>Wir sind hier, um dir bei jedem Schritt zu helfen.</p>
+      <p>Falls du Fragen hast oder Unterstützung benötigst, klicke hier um zu den FAQ’s zu gelangen.</p>
+      <p>Du brauchst spezielle Hilfe beim Einrichten? Dann kontaktiere uns über das Kontaktformular auf unserer Webseite.</p>
+      <div class="website-link-box">
+        <a href="https://www.ihre-webseite.de" target="_blank">Besuchen Sie unsere Webseite</a>
+      </div>
+    </div>
+    <div class="social-media-box">
+      <p>Folge uns jetzt auf Instagram und LinkedIn, um über alle Neuigkeiten informiert zu sein.</p>
+      <div class="social-media-icons">
+        <!-- Hier  Instagram-Link :) einfügen -->
+        <a href="https://www.instagram.com/ihreinstagramseite" target="_blank" class="social-icon">
+          <img src="instagram.png" alt="Instagram">
+        </a>
+        <!-- Hier  Instagram-linkedin :) einfügen -->
+        <a href="https://www.linkedin.com/in/ihrelinkedinseite" target="_blank" class="social-icon">
+          <img src="linkedin.png" alt="LinkedIn">
+        </a>
+      </div>
+    </div>
+  </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+</div>
+<footer class="footer">
+  <p>Leoworx Ortungssysteme GmbH</p>
+  <p>Berliner Promenade 5 | 66111 Saarbrücken</p>
+  <p><a href="https://www.ihre-webseite.de" target="_blank">www.ihre-webseite.de</a></p>
+</footer>
+</body>
+<div id="root">
+  <!-- React rendert Komponenten hier usners fall nicht :( hahah -->
+
+</div>
+
 </html>
